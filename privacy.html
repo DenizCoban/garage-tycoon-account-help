@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Garage Tycoon'un hesap, bulut kayıtları ve reklam verilerini nasıl kullandığı hakkında gizlilik politikası.">
+  <title>Garage Tycoon Gizlilik Politikası</title>
+  <style>
+    body{max-width:820px;margin:32px auto;padding:0 20px 48px;font:16px/1.7 system-ui,sans-serif;color:#172033}
+    h1,h2{line-height:1.25}h2{margin-top:30px}a{color:#075bb5}.contact{padding:16px;background:#f1f5f9;border-radius:10px}
+  </style>
+</head>
+<body>
+  <h1>Garage Tycoon Gizlilik Politikası</h1>
+  <p><strong>Son güncelleme:</strong> 2 Kasım 2026</p>
+  <p>Bu politika Garage Tycoon mobil oyunu ve ilişkili hesap/bulut özellikleri için geçerlidir. Geliştirici ve gizlilik iletişim noktası: Deniz Çoban, <a href="mailto:denizdevranc@gmail.com">denizdevranc@gmail.com</a>.</p>
+
+  <h2>İşlenen bilgiler</h2>
+  <p><strong>Yerel oyun verileri:</strong> Oyun ilerlemesi, ayarlar ve reklam ödül sınırları cihazınızda saklanır. Uygulamayı kaldırmak veya uygulama verilerini temizlemek bu yerel verileri silebilir.</p>
+  <p><strong>Bulut hesabı ve eşitleme (isteğe bağlı):</strong> E-posta/parola ile hesap açar veya giriş yaparsanız Supabase Auth e-posta adresinizi, hesap kimliğinizi ve oturumun sürdürülmesi için gereken kimlik doğrulama verilerini işler. Oyun, oturumu sürdürmek için erişim ve yenileme belirteçlerini cihazdaki uygulama depolamasında tutar. Bulut eşitlemesini kullanırsanız oyun kaydınız, hesap kimliğinizle ilişkilendirilerek Supabase'deki <code>player_saves</code> tablosunda saklanır. Bulut elmas cüzdanı ve işlem kayıtları da hesapla ilişkilidir. Bulut özellikleri kullanılmadıkça yerel oyun kaydı buluta gönderilmez.</p>
+  <p><strong>Yaş ve reklam tercihleri:</strong> Android uygulamasında yaşa uygun reklam ayarı için doğum tarihi sorulur. Tarih cihazda hesaplanır; doğum tarihinin kendisi gönderilmez veya saklanmaz. Yalnızca yaş grubu yerel oyun verisinde tutulur ve bulut kaydı eşitlenirse bu grup da kayıtla birlikte eşitlenebilir. Google UMP SDK'sı bölgesel rıza/mahremiyet tercihlerini yönetir; tercihlerin değiştirilmesi gerektiğinde uygulama içindeki “Gizlilik ve reklam seçenekleri” girişini kullanabilirsiniz.</p>
+  <p><strong>İsteğe bağlı Play Games bağlantısı:</strong> Android'de Play Games hesabınızı mevcut Supabase bulut hesabınıza ayrıca bağlamayı seçerseniz, Google Play Games Services tek kullanımlık sunucu yetkilendirme kodu üretir. Sunucu kodu Google ile değiştirip oyuncu kimliğini Google API'sinden doğrular ve doğrulanmış Play Games Player ID'sini Supabase hesap kimliğinizle eşleştirir. Bu eşleştirme Google Play Games hizmetinin çalışması ve bağlantıyı önlemek için saklanır; Google erişim token'ı saklanmaz. PGS bağlantısı bulut hesabınızın yerine geçmez. Supabase hesabını silmeniz eşleştirmeyi de siler.</p>
+  <p><strong>Reklam verileri:</strong> Android sürümü Google Mobile Ads (AdMob) SDK'sıyla ödüllü reklam sunar. Google SDK'sı reklam sunumu, ölçümü, sahtekârlığın önlenmesi ve tanılama için IP adresi, reklam/uygulama etkileşimleri, cihaz veya reklam tanımlayıcıları ve tanılama verileri gibi bilgileri işleyebilir. Veriler Google tarafından kendi hizmet şartları ve gizlilik açıklamaları kapsamında işlenir. Uygulama, oyun analitiği veya Firebase Analytics kullanmaz. Ayrıntılar: <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK veri açıklaması</a> ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.</p>
+
+  <h2>Kullanım ve paylaşım</h2>
+  <p>Oyun verileri oyunu cihazda sürdürmek ve isteğe bağlı bulut eşitlemesini sağlamak için kullanılır. Hesap ve bulut verileri Supabase altyapısında işlenir. Play Games bağlantısını seçerseniz doğrulama için gerekli sunucu isteği Google Play Games Services'a iletilir. Reklam SDK'sı reklamları sunmak ve ölçmek için gerekli verileri Google'a iletebilir. Oyun kaydı AdMob'a gönderilmez. Uygulama, bu amaçlar dışında veri satmaz.</p>
+
+  <h2>Saklama ve güvenlik</h2>
+  <p>Supabase'e gönderilen bilgiler şifreli ağ bağlantısı üzerinden aktarılır. Oturum belirteçleri ve yerel oyun verileri cihaz depolamasında tutulur; cihazınıza erişimi korumak sizin sorumluluğunuzdadır. Bulut kayıtları ve isteğe bağlı PGS eşleştirmesi hesabınız açık kaldığı sürece saklanır. Reklam verilerinin saklama süresi Google'ın uygulamalarına tabidir.</p>
+
+  <h2>Hesap ve verileri silme</h2>
+  <p>Hesabınızı oyundaki Bulut Hesabı ekranından kalıcı olarak silebilir veya <a href="https://denizcoban.github.io/garage-tycoon-account-help/">hesap silme sayfasındaki</a> talimatları izleyebilirsiniz. Silme işlemi Supabase hesabını, bulut oyun kaydını ve ilişkili sunucu cüzdan/işlem verilerini siler. Cihazdaki yerel oyun kaydı korunur; onu kaldırmak için oyun kaydını sıfırlayın veya cihaz uygulama verilerini temizleyin.</p>
+
+  <h2>Çocuklar ve yaş grupları</h2>
+  <p>Oyunun Google Play hedef yaş grupları Play Console'da beyan edilen gruplardır. 18 yaş altı olarak belirlenen profillerde reklam isteği çocuk/yaşı bilinmeyen kullanıcıları koruyacak şekilde işaretlenir ve çocuk profillerinde dış destek bağlantıları gösterilmez. Yaş bilgisi profilini düzeltmek için uygulama verilerini temizleyebilirsiniz; bu işlem yerel oyun kaydınızı da silebilir. Reklam sağlayıcısının kendi veri uygulamaları için yukarıdaki Google açıklamalarına bakın.</p>
+
+  <h2>Destek ve üçüncü taraf hizmetleri</h2>
+  <p>Bize e-posta veya sosyal medya üzerinden ulaşırsanız, gönderdiğiniz bilgiler ilgili hizmet sağlayıcısı üzerinden iletilir ve yanıt vermek için kullanılır. Supabase ve Google, kendi hizmetlerini sunarken kendi gizlilik metinlerine göre veri işleyebilir.</p>
+
+  <h2>Değişiklikler ve iletişim</h2>
+  <p>Veri işleme biçimi değişirse bu politika güncellenir. Sorularınız veya gizlilik talepleriniz için <a href="mailto:denizdevranc@gmail.com">denizdevranc@gmail.com</a> adresine yazabilirsiniz.</p>
+  <p class="contact">Hesap silme: <a href="https://denizcoban.github.io/garage-tycoon-account-help/">https://denizcoban.github.io/garage-tycoon-account-help/</a><br>Geliştirici: Deniz Çoban · <a href="mailto:denizdevranc@gmail.com">denizdevranc@gmail.com</a></p>
+</body>
+</html>
